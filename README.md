@@ -19,6 +19,3 @@ Eğer bu projeye katkıda bulunmak isterseniz, aşağıdaki adımları takip ede
 - Yeni özellikler eklemek veya hata düzeltmeleri yapmak için bir dal (branch) oluşturun.
 - Yaptığınız değişiklikleri bu dalda yapın.
 - Değişikliklerinizi commit edin ve bir pull request oluşturun.
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
