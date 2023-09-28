@@ -1,9 +1,6 @@
 import { useState } from 'react'
 import Board from "./components/Board"
 
-
-
-
 export default function Game() {
 
   const [history, setHistory] = useState([Array(17).fill(null)]);
@@ -36,7 +33,8 @@ export default function Game() {
   });
 
   return (
-    <div className="game flex m-3 gap-2 bg-purple-200 rounded-xl p-3 w-[525px]">
+    <div className='bg-black h-screen p-1'>
+      <div className="game flex m-3 gap-2 bg-purple-200 rounded-xl p-3 w-[525px]">
       <div className="game-board w-3/4 text-purple-400 text-center">
         <Board className="game-board bg-white rounded-xl " xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
@@ -44,6 +42,9 @@ export default function Game() {
         <div>{moves}</div>
       </div>
     </div>
+    </div>
+
+    
   );
 }
 
