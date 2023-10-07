@@ -1,4 +1,4 @@
-# React + Vite
+# Tic-Tac-Toe Game with React + Vite
 
 React ile Tic-Tac-Toe Oyunu
 Bu proje, React ve Tailwind CSS kullanılarak geliştirilen basit bir tic-tac-toe oyunudur.
